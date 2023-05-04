@@ -1,0 +1,17 @@
+.greeting-text {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+    margin: 50px;
+    animation: fade-in 1s ease;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

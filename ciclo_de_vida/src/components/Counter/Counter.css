@@ -1,0 +1,28 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .counter-button {
+    background-color: #040452;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-button:hover {
+    background-color: #040452;
+  }
+  
+  .counter-value {
+    font-size: 36px;
+    margin: 0 20px;
+  }
+  
